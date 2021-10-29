@@ -1,0 +1,26 @@
+<template>
+  <h2>this is job page</h2>
+  <div v-for="job in jobs" :key="job.id">
+      <router-link :to="{ name : 'JobDetails', params : { id: job.id }}">
+          <h2>{{job.title}} </h2>
+      </router-link>
+  </div>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            jobs:[
+                {title:'cosmic theory',id:1, details:'this is a physics  book' },
+                {title:'monk', id:2,details:'good book for self developement' },
+                {title:'Attitude',id:3, details:'good book for self developement' }
+            ]
+        }
+    }
+}
+</script>
+
+<style>
+
+</style>

@@ -1,4 +1,14 @@
 # router-demo
+```
+Drawbacks of the Options API,
+Composition API, 
+Template refs, 
+Using refs for reactivity,
+Refs vs Reactive,
+Computed values,
+watch & watchEffect
+
+```
 
 ## Project setup
 ```
